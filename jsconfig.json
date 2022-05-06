@@ -1,0 +1,15 @@
+//para adcionar alias ao projeto
+{
+    "compilerOptions": {
+        "target":"ES6",
+        "baseUrl": "src",
+        "jsx": "react",
+        "paths":{
+            "components:/*":["./components"],
+            "containers:/*":["./containers"],
+            "assets:/*":["./assets"],
+            "commons:/*":["./commons"]
+
+        }
+    }
+}
