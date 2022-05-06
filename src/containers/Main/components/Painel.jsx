@@ -30,7 +30,7 @@ function Painel({ updateAt, onChange, data, country, getCoviddata}) {
         navigator.share({
             title: `Dados do Covid - 19 ${country} - recuperados ${recovered}`,
             text: textCovid19,
-            url: 'https://covid19dio.netlify.app/' //onde a aplicação vai ficar hospedado 
+            url: 'https://covid-19-pp.herokuapp.com/' //onde a aplicação vai ficar hospedado 
         })
     }
 
